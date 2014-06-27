@@ -1,0 +1,67 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+nav{
+	background: #666;
+	height: 50px;
+}
+
+nav ul{
+	display: block;
+	height: 100%;
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a{
+	color: #000;
+	display: block;
+	padding: 14px;
+	text-decoration: none;
+}
+
+/* Classes */
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear::after{
+	clear: both;
+	content: " ";
+	display: block;
+	height: 0px;
+}
+
+.selected{
+	background: #9966FF;
+	border-bottom: 3px solid #6600CC;
+}
+
+/* Ids */ 
+
+#company_banner{
+	background: #ccc;
+	display: table;
+	height: 500px;
+	width: 100%;
+}
+
+#company_banner span{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#logo{
+	padding: 16px;
+}
