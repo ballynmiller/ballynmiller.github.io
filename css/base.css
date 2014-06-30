@@ -107,7 +107,7 @@ a.subtitle{
 
 #company_banner{
 	background: url('/images/rackspace_crop.jpg') no-repeat center center;
-	background-size: 100% 400px;
+	background-size: 100% cover;
 	display: table;
 	height: 400px;
 	margin: 0;
