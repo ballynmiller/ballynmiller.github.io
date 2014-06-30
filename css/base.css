@@ -106,9 +106,10 @@ a.subtitle{
 }
 
 #company_banner{
-	background: #999;
+	background: url('/images/company.jpg') no-repeat center center;
+	background-size: 100% 550px;
 	display: table;
-	height: 500px;
+	height: 550px;
 	margin: 0;
 	width: 100%;
 }
@@ -157,9 +158,9 @@ a.subtitle{
 #prof_img{
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
 	border: 20px solid #fff;
-	height: 250px;
+	height: 300px;
 	margin-left: 20px;
-	margin-top: 65px;
+	margin-top: 45px;
 }
 
 #prof_img img{
