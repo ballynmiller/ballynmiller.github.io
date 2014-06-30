@@ -2,10 +2,11 @@
 	<span id="logo" class="left">Ballyn Miller</span>
 	<ul class="right">
 		<li>
-			<a href="/" class="selected">Home</a>
-		</li>
-		<li>
-			<a href="/blog/">Blog</a>
+			<a href="/" {% if include.home == true %}class="selected" {% endif %}>Home</a>
+		</li><li>
+			<a href="/#about">About</a>
+		</li><li>
+			<a href="/blog/" {% if include.blog == true %} class="selected" {% endif %}>Blog</a>
 		</li>
 	</ul>
 </nav>

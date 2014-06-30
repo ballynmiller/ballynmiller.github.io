@@ -1,10 +1,16 @@
 *{
+	font-family: "Open Sans";
 	padding: 0px;
 	margin: 0px;
 }
 
+body{
+	min-width: 960px;
+}
+
 nav{
-	background: #666;
+	background: #242424;
+	color: #fff;
 	height: 50px;
 }
 
@@ -12,6 +18,8 @@ nav ul{
 	display: block;
 	height: 100%;
 	list-style: none;
+	margin: 0;
+
 }
 
 nav ul li{
@@ -19,40 +27,89 @@ nav ul li{
 }
 
 nav ul li a{
-	color: #000;
+	color: #fff;
 	display: block;
 	padding: 14px;
 	text-decoration: none;
 }
 
-/* Classes */
-
-.left{
-	float: left;
+.selected,
+nav ul li a:hover{
+	background: #666;
 }
 
-.right{
-	float: right;
+
+/* Classes */
+
+.caption{
+	margin: 20px;
 }
 
 .clear::after{
 	clear: both;
 	content: " ";
 	display: block;
+	visibility: hidden;
 	height: 0px;
 }
 
-.selected{
-	background: #9966FF;
-	border-bottom: 3px solid #6600CC;
+.img_container{
+	margin-top: 50px;
+	padding: 0 45px;
+	vertical-align: middle;
 }
 
-/* Ids */ 
+.left{
+	float: left;
+}
+
+.post{
+	margin-top: 20px;
+}
+
+.right{
+	float: right;
+}
+
+a.subtitle{
+	text-decoration: none;
+}
+
+.subtitle{
+	color: #ccc;
+	margin-top: 5px;
+}
+
+.title{
+	color: #666;
+	font-size: 20pt;
+}
+
+/* Ids */
+
+#about{
+	background: #ccc;
+	height: 400px;
+	text-align: center;
+}
+
+#about div{
+	display: inline-block;
+}
+
+#about_information{
+	font-size: 16pt;
+	height: 250px;
+	margin-top: 90px;
+	padding: 5px;
+	vertical-align: middle;
+}
 
 #company_banner{
-	background: #ccc;
+	background: #999;
 	display: table;
 	height: 500px;
+	margin: 0;
 	width: 100%;
 }
 
@@ -62,6 +119,73 @@ nav ul li a{
 	text-align: center;
 }
 
-#logo{
-	padding: 16px;
+#content{
+	margin-top: 20px;
+	text-align: center;
 }
+
+#familiar_languages{
+	text-align: center;
+}
+
+#lang_container{
+	padding: 30px 0;
+}
+
+#lang_logos{
+	margin: auto;
+	text-align: center;
+	width: 90%;
+}
+
+#lang_logos img{
+	filter: grayscale(100%);
+	width: 250px;
+	-moz-filter: grayscale(85%);
+	-webkit-filter: grayscale(85%);
+}
+
+#logo{
+	padding: 13px;
+}
+
+#post_content,
+#related_post{
+	text-align: left;
+}
+
+#prof_img{
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+	border: 20px solid #fff;
+	height: 250px;
+	margin-left: 20px;
+	margin-top: 65px;
+}
+
+#prof_img img{
+	height: 100%;
+	width: 100%;
+}
+
+#recent_blogs{
+	text-align: left;
+}
+
+#recent_blogs a{
+	color: #666;
+	text-decoration: none;
+}
+
+#recent_blogs a:hover{
+	text-decoration: underline;
+}
+
+#related_post{
+	margin-top: 20px;
+}
+
+#sidebar{
+	background: #ccc;
+}
+
+/* TODO: add mobile support */

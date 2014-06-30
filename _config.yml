@@ -1,1 +1,9 @@
-auto: true
+#dependencies 
+markdown: redcarpet
+pygments: true
+
+# url configuration
+permalink: pretty
+
+#auto regen
+regeneration: true

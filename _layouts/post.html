@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% include header.html blog=true %}
+
+<div id="content">
+	<div class="pure-u-4-5" id="post_content">
+		<div class="title">{{page.title}}</div>
+		<div class="subtitle">{{page.date | date_to_string}}</div>
+		<p>{{ content }}</p>
+	</div>
+
+	<div class="pure-u-4-5" id="related_post">
+	{% include related_posts.html %}
+	</div>
+</div>
