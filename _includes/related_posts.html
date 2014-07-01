@@ -1,5 +1,7 @@
-<div class="title">Related Post</div>
-	<span>{{site.related_posts}}</span>
-	{% for post in site.related_posts %}
-		<a class="subtitle" href="{{post.url}}">{{post.title}} - {{post.date |  date_to_string}}</a>
-	{% endfor %}
+{% if site.related_posts != empty %}
+	<div class="title">Related Post</div>
+		<span>{{site.related_posts}}</span>
+		{% for post in site.related_posts %}
+			<a class="subtitle" href="{{post.url}}">{{post.title}} - {{post.date |  date_to_string}}</a>
+		{% endfor %}
+{% endif %}
