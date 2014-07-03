@@ -152,6 +152,10 @@ a.subtitle{
 	text-align: left;
 }
 
+#post_content{
+	margin-top: 20px;
+}
+
 #prof_img{
 	display: table-cell;
 	vertical-align: middle;
