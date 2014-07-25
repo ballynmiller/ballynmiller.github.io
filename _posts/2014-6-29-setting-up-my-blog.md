@@ -4,7 +4,7 @@ title: "Setting up my new blog"
 ---
 
 So I've finally decided to start blogging about things that i find interesting.
-What exactly did this consist of? Finding a framework for a blogging site, and deciding what to blog
+What exactly does that consist of? Finding a framework for a blogging site, and deciding what to blog
 about. 
 
 ### First agenda create a blog
