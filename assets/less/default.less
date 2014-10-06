@@ -1,0 +1,115 @@
+// Global Variables
+@banner_height: 400px;
+@image_path: "/assets/images";
+@primary_color: #B82E00;
+@secondary_color: #812000;
+@tertiary_color: #666;
+
+//Mixin's
+.playfair(){
+	font-family: 'Playfair Display', serif;
+}
+
+.niconne(){
+	font-family: 'Niconne', cursive;
+}
+
+.title(){
+	color: @secondary_color;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0;
+	text-transform: capitalize;
+}
+
+nav{
+	background: @primary_color;
+	ul{
+		letter-spacing: 0;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		li{
+			display: inline-block;
+			a{
+				color: #fff;
+				display: block;
+				font-weight: bold;
+				padding:14px;
+				text-decoration: none;
+				.playfair;
+				&:hover, &.selected{
+					background: @secondary_color;
+				}
+			}
+		}
+	}
+}
+
+#accent_text{
+	color: #666;
+}
+
+#banner{
+	background: url("@{image_path}/pw_maze_white.png");
+	display: table;
+	height: @banner_height;
+	text-align: center;
+	#title{
+		color: @primary_color;
+		font-size: 5em;
+		text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+		.niconne;
+	}
+	#title_container{
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+#container{
+	background: url("@{image_path}/pw_maze_white.png");
+	min-height: 800px; 
+	height:auto !important; 
+	height: 800px;
+}
+
+#mobile_nav{
+	display: none;
+}
+
+#post_container{
+	background: #fff;
+	box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+	margin:30px auto;
+	padding: 20px;
+}
+
+.post {
+	border-bottom: 1px dashed fade(@primary_color, 15%);
+	letter-spacing: normal;
+	margin: auto;
+	margin-top: 20px;
+	.playfair !important;
+	a.title{
+		.title;
+		text-decoration: none;
+		&:hover{
+			color:@primary_color;
+		}
+	}
+	a.read{
+		color: @tertiary_color;
+		text-decoration: none;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	p{
+		color: #333;
+	}
+}
+
+.title{
+	.title;
+}

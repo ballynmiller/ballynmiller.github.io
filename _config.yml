@@ -1,9 +1,13 @@
 #dependencies 
 markdown: redcarpet
-pygments: true
+highlighter: true
 
 # url configuration
 permalink: pretty
 
 #auto regen
 regeneration: true
+
+# paginate 8 post
+paginate: 6
+paginate_path: "/page/:num"

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Setting up my new blog"
+comments: true
 ---
 
 So I've finally decided to start blogging about things that i find interesting.
