@@ -99,6 +99,15 @@ nav{
 	padding: 20px;
 }
 
+.date{
+	color: #6A6A6A;
+}
+
+.excerpt{
+	border-left: 6px solid @primary_color;
+	padding-left: 8px;
+}
+
 .post {
 	border-bottom: 1px dashed fade(@primary_color, 15%);
 	letter-spacing: normal;
@@ -106,6 +115,13 @@ nav{
 	margin-top: 20px;
 	padding: 20px;
 	.playfair !important;
+	a.read{
+		color: @secondary_color;
+		text-decoration: none;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
 	a.title{
 		.title;
 		text-decoration: none;
@@ -113,15 +129,12 @@ nav{
 			color:@primary_color;
 		}
 	}
-	a.read{
-		color: @tertiary_color;
-		text-decoration: none;
-		&:hover{
-			text-decoration: underline;
-		}
+	div.link_container{
+		margin-top: 5px;
 	}
 	p{
 		color: #333;
+		margin-bottom: 0;
 	}
 }
 

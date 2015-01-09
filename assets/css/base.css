@@ -69,6 +69,13 @@ nav:after {
   margin: 30px auto;
   padding: 20px;
 }
+.date {
+  color: #6A6A6A;
+}
+.excerpt {
+  border-left: 6px solid #b82e00;
+  padding-left: 8px;
+}
 .post {
   border-bottom: 1px dashed rgba(184, 46, 0, 0.15);
   letter-spacing: normal;
@@ -76,6 +83,13 @@ nav:after {
   margin-top: 20px;
   padding: 20px;
   font-family: 'Playfair Display', serif !important;
+}
+.post a.read {
+  color: #812000;
+  text-decoration: none;
+}
+.post a.read:hover {
+  text-decoration: underline;
 }
 .post a.title {
   color: #812000;
@@ -88,15 +102,12 @@ nav:after {
 .post a.title:hover {
   color: #b82e00;
 }
-.post a.read {
-  color: #666666;
-  text-decoration: none;
-}
-.post a.read:hover {
-  text-decoration: underline;
+.post div.link_container {
+  margin-top: 5px;
 }
 .post p {
   color: #333;
+  margin-bottom: 0;
 }
 .title {
   color: #812000;
