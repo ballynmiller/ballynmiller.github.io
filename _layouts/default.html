@@ -10,7 +10,7 @@
 		<link href="/assets/css/base.css" rel="stylesheet" />
 	</head>
 	<body>
-		<div id="content_wrapper">
+		<div id="content_wrapper" {% if page.bg == true %} class="bg" {% endif %}>
 			{{content}}
 		</div>
 	</body>

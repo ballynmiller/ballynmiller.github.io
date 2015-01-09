@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  min-height: 100%;
 }
 nav {
   background: #b82e00;
@@ -52,8 +53,7 @@ nav:after {
   display: table-cell;
   vertical-align: middle;
 }
-#content_wrapper,
-#container {
+.bg {
   background: url("/assets/images/pw_maze_white.png");
 }
 #content_wrapper {
