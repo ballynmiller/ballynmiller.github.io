@@ -61,6 +61,7 @@ nav ul li a.selected {
   letter-spacing: normal;
   margin: auto;
   margin-top: 20px;
+  padding: 20px;
   font-family: 'Playfair Display', serif !important;
 }
 .post a.title {
