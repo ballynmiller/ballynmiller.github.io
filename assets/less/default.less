@@ -22,6 +22,10 @@
 	text-transform: capitalize;
 }
 
+html, body{
+	height: 100%;
+}
+
 nav{
 	background: @primary_color;
 	ul{
@@ -43,6 +47,13 @@ nav{
 				}
 			}
 		}
+	}
+	&:after{
+		clear: both;
+		content: ".";
+		display: block;
+		height: 0;
+		visibility: hidden;
 	}
 }
 
@@ -69,9 +80,11 @@ nav{
 
 #container{
 	background: url("@{image_path}/pw_maze_white.png");
-	min-height: 800px; 
-	height:auto !important; 
-	height: 800px;
+	height: 100%;
+}
+
+#content_wrapper{
+	height: 100%;
 }
 
 #mobile_nav{
@@ -81,6 +94,7 @@ nav{
 #post_container{
 	background: #fff;
 	box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+	height: 70%;
 	margin:30px auto;
 	padding: 20px;
 }
