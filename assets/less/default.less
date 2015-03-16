@@ -14,6 +14,11 @@
 	font-family: 'Niconne', cursive;
 }
 
+.subtitle(@color: #CACACA){
+	color: @color;
+	padding-top: 10px;
+}
+
 .title(){
 	color: @secondary_color;
 	font-size: 1.2em;
@@ -58,7 +63,7 @@ nav{
 	}
 }
 
-#accent_text{
+#accent-text{
 	color: #666;
 }
 
@@ -73,7 +78,7 @@ nav{
 		text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
 		.niconne;
 	}
-	#title_container{
+	#title-container{
 		display: table-cell;
 		vertical-align: middle;
 	}
@@ -84,17 +89,23 @@ nav{
 	background: url("@{image_path}/pw_maze_white.png");
 }
 
-#content_wrapper{
+#content{
+	border-bottom: 1px solid rgba(202, 202, 202, 0.7);
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+#content-wrapper{
 	height: 100%;
 }
 
-#mobile_nav{
+#mobile-nav{
 	display: none;
 }
 
-#post_container{
+#post-container{
 	background: #fff;
-	box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 	margin:30px auto;
 	padding: 20px;
 }
@@ -108,6 +119,10 @@ nav{
 	padding-left: 8px;
 }
 
+.highlight{
+	padding: 0 15px;
+}
+
 .post {
 	border-bottom: 1px dashed fade(@primary_color, 15%);
 	letter-spacing: normal;
@@ -115,13 +130,6 @@ nav{
 	margin-top: 20px;
 	padding: 20px;
 	.playfair !important;
-	a.read{
-		color: @secondary_color;
-		text-decoration: none;
-		&:hover{
-			text-decoration: underline;
-		}
-	}
 	a.title{
 		.title;
 		text-decoration: none;
@@ -129,7 +137,7 @@ nav{
 			color:@primary_color;
 		}
 	}
-	div.link_container{
+	div.link-container{
 		margin-top: 5px;
 	}
 	p{
@@ -138,6 +146,39 @@ nav{
 	}
 }
 
+a.read{
+	color: @secondary_color;
+	text-decoration: none;
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+.related-post{
+	margin-top: 10px;
+	p{
+		margin: 0.5em 0;
+	}
+}
+
+.subtitle{
+	.subtitle(#666;);
+}
+
+a.subtitle{
+	display: block;
+	text-decoration: none;
+	.subtitle();
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
 .title{
 	.title;
+}
+
+.underline{
+	border-bottom: 3px solid #b82e00;
+	padding-right: 5px;
 }

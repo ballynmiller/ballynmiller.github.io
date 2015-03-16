@@ -6,23 +6,23 @@ layout: default
 
 <div class="pure-g">
 	<div id="banner" class="pure-u-1">
-		<div id="title_container">
+		<div id="title-container">
 			<span id="title">Ballyn Miller</span>
 			<div>
-				<span id="accent_text">Software Developer</span>
+				<span id="accent-text">Software Developer</span>
 			</div>
 		</div>
 	</div>
 	{% include header.html home=true %}
 	{% for post in site.posts %}
-		<div class="post pure-u-10-12">
+		<div class="post pure-u-5-6">
 			<div>
 				<a class="title" href="{{post.url}}">{{post.title}}</a>
 			</div>
 			<span class="date">{{post.date | date: "%b %d, %Y" }}</span>
 			<p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
 			<span>...</span>
-			<div class="link_container">
+			<div class="link-container">
 				<a class="read" href="{{post.url}}">Read More</a>
 			</div>
 		</div>
