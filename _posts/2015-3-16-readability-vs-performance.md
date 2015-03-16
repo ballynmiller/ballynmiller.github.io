@@ -4,7 +4,7 @@ title: "Readability vs Performance"
 comments: true
 ---
 
-### This is a basic example of increasing the performance of a for loop.
+## This is a basic example of increasing the performance of a for loop.
 
 *Most people familiar with python would probably use the list comprehension.*
 
@@ -39,7 +39,7 @@ Someone new to python would easily be able to understand the for loop iteration 
 similar to what they're familiar with, but you can easily shave off time by creating a list comprehension
 shouldn't it be the developer's responsiblity to increase their familiarity with a language.
 
-### Here's another example
+## Here's another example
 
 ```python
 #!.venv/bin/python
