@@ -20,7 +20,7 @@ layout: default
 				<a class="title" href="{{post.url}}">{{post.title}}</a>
 			</div>
 			<span class="date">{{post.date | date: "%b %d, %Y" }}</span>
-			<p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+			<p class="excerpt">{{ post.excerpt | strip_html }}</p>
 			<span>...</span>
 			<div class="link-container">
 				<a class="read" href="{{post.url}}">Read More</a>

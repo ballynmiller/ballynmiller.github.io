@@ -6,7 +6,7 @@
 		<div class='related-post'>
 			<a class="subtitle" href="{{post.url}}">{{post.title}}</a>
 			<p>
-				{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 20 }}
+				{{ post.excerpt | strip_html | remove:"#" | truncatewords: 20 }}
 				<a class="read" href="{{post.url}}">Read More</a>
 			</p>
 		</div>
