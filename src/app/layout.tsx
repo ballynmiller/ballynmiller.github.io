@@ -1,9 +1,16 @@
 import "@/styles/global.css";
-import Head from "next/head";
+import { Viewport } from "next";
 
 export const metadata = {
   title: "Ballyn Miller",
   description: "Personal website for Ballyn Miller",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 export default function RootLayout({
@@ -13,9 +20,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
       <body className="container">{children}</body>
     </html>
   );
