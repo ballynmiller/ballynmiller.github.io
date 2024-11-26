@@ -1,9 +1,10 @@
-import { Navigation } from "@/components";
+import { HeroBanner, Navigation } from "@/components";
 
-export default function Home() {
+export default function Homepage() {
   return (
-    <div>
+    <>
+      <HeroBanner />
       <Navigation />
-    </div>
+    </>
   );
 }
