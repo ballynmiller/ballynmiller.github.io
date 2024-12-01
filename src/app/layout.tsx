@@ -1,5 +1,6 @@
 import "@/styles/global.css";
 import { Viewport } from "next";
+import { poppins } from "./fonts";
 
 export const metadata = {
   title: "Ballyn Miller",
@@ -19,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="container">{children}</body>
+    <html lang="en" className={poppins.className}>
+      <body>{children}</body>
     </html>
   );
 }
