@@ -16,7 +16,7 @@ const Cards = Styled.div`
 
 const Highlights = () => {
   return (
-    <Cards className="grid grid-cols-3 text-center pt-10 pb-3">
+    <Cards className="hidden md:grid grid grid-cols-3 text-center pt-10 pb-3">
       {accomplishments.map(({ subtitle, title }) => (
         <Card key={title} title={title} subtitle={subtitle} />
       ))}

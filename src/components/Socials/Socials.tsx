@@ -7,10 +7,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 
 const Socials = Styled.div.attrs({
-  className: "text-lg",
+  className: "text-lg pt-2",
 })`
-  background-color: #fff;
-  height: 50px;
   display: flex;
   align-items: center;
 `;

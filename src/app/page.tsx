@@ -5,10 +5,10 @@ import { About, Experience, HeroBanner, Highlights } from "@/components";
 export default function Homepage() {
   return (
     <>
-      <div className="p-5">
+      <div className="p-0 md:p-5">
         <HeroBanner />
         <Highlights />
-        <div className="grid grid-cols-2 p-5 pt-9">
+        <div className="lg:grid grid-cols-2 lg:p-5 pt-9">
           <About />
           <Experience />
         </div>
