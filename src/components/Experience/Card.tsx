@@ -37,6 +37,7 @@ export const Card = ({
         {technologies.map((tech) => (
           <Chip
             color="primary"
+            key={tech}
             label={tech}
             sx={{ backgroundColor: "#605856" }}
           />
