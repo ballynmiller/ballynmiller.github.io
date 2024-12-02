@@ -8,7 +8,7 @@ export default function Homepage() {
       <div className="p-0 md:p-5">
         <HeroBanner />
         <Highlights />
-        <div className="lg:grid grid-cols-2 lg:p-5 pt-9">
+        <div className="lg:grid grid-cols-2 lg:p-5 md:pt-9">
           <About />
           <Experience />
         </div>

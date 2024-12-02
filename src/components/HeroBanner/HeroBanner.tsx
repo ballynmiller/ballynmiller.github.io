@@ -10,21 +10,17 @@ const Wrapper = Styled.div.attrs({
 })`
 `;
 
-const Info = Styled.div.attrs({
-  className: "m-auto",
-})`
-  display: flex;
-  align-items: center;
+const Info = Styled.div.attrs({})`
 `;
 
 const HeroBanner = () => {
   return (
     <Wrapper>
-      <Info>
-        <div className="hidden lg:block">
+      <Info className="block md:flex items-center gap-x-4">
+        <div className="">
           <Image
             alt="self portrait"
-            src={"/img/selfie.jpeg"}
+            src={"/img/DSC_4973.jpeg"}
             width={900}
             height={900}
             className="rounded-full"

@@ -18,6 +18,18 @@ const jobs = [
       `Architected React-Native checkout workaround to maintain company compliance across several brands.`,
       `Engineered Builder.io components using React.js and React-Native, allowing for dynamic updates`,
     ],
+    technologies: [
+      "Javascript",
+      "Typescript",
+      "Redux",
+      "React",
+      "Styled-Components",
+      "React-Native",
+      "ElasticSearch",
+      "GraphQL",
+      "Webpack",
+      "Github Actions",
+    ],
   },
   {
     company: "SS&C Advent",
@@ -28,20 +40,23 @@ const jobs = [
       `Built a Node microservice for Trade Session snapshots, developed key features for the Rebalancer tool using
 React.js, C#, and AWS. Maintained a high-performance React.js frontend and mentored junior developers.`,
     ],
+    technologies: ["React", "Redux", "Typescript", "C#", "AWS"],
   },
 ].sort((a, b) => (a.company < b.company ? 0 : -1));
 
 const Experience = () => {
   return (
     <div className="p-8">
-      <div className={` text-4xl py-5 ${fraunces.className} text-charcoal`}>
+      <div className={` text-4xl md:py-5 ${fraunces.className} text-charcoal`}>
         Work Experience
       </div>
       {jobs.map((job) => (
         <Card key={job.company} {...job} />
       ))}
       <div className="text-cerulean">
-        <Link href="/resume.pdf">Download Resume</Link>
+        <Link href="/resume.pdf" download="resume.pdf">
+          Download Resume
+        </Link>
       </div>
     </div>
   );
