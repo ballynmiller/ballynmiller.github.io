@@ -28,10 +28,10 @@ const SocialLinks = () => {
   return (
     <Socials>
       <Links>
-        <Link href="#">
+        <Link href="https://github.com/ballynmiller">
           <GitHubIcon />
         </Link>
-        <Link href="#">
+        <Link href="https://www.linkedin.com/in/ballynmiller/">
           <LinkedInIcon sx={{ color: "rgb(10, 102, 194)" }} />
         </Link>
         <Link href="mailto:ballyn.miller@gmail.com">

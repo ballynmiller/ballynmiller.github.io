@@ -14,7 +14,7 @@ export const Card = ({
   responsibilities,
 }: CardProps) => {
   return (
-    <div className="py-3">
+    <div className="pb-5">
       <h1>
         <span className="text-wenge">{position}</span> -{" "}
         <span className="text-cerulean">{company}</span>

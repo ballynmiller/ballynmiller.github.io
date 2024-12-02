@@ -6,15 +6,22 @@ const About = () => {
       <h1 className={`text-4xl text-charcoal py-5 ${fraunces.className}`}>
         About
       </h1>
-      <p className="text-xl font-thin">
-        Lorem ipsum odor amet, consectetuer adipiscing elit. Nec amet elit
-        pharetra nisi arcu. Malesuada litora mattis curabitur sed vel luctus.
-        Mus risus cras urna, sem faucibus diam conubia eleifend. Curae tempus
-        porttitor lectus cras nisl netus. Conubia sapien amet integer rutrum sed
-        class aliquet. Sit integer ante enim litora diam ex scelerisque
-        lobortis. Luctus varius consectetur donec elit senectus, sagittis rutrum
-        quis. Feugiat natoque vivamus hac vulputate sagittis. Alectus ipsum
-      </p>
+      <div className="font-thin">
+        <p>
+          I’m a self-motivated Staff Software Engineer with 17 years of
+          experience who loves tackling new challenges and turning complex
+          problems into elegant, easy-to-maintain solutions. I’m passionate
+          about writing clean, thoughtful code and collaborating with teams to
+          create meaningful results.
+        </p>
+        <p className="pt-5">
+          I enjoy working closely with people across different teams, building
+          strong relationships, and helping everyone stay aligned to achieve
+          shared goals. I bring a positive, can-do attitude to my work and
+          thrive in environments where creativity, collaboration, and learning
+          are valued.
+        </p>
+      </div>
     </div>
   );
 };
