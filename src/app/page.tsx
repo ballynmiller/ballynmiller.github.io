@@ -1,14 +1,18 @@
 "use client";
 
-import { About, HeroBanner, Highlights, Navigation } from "@/components";
+import { About, Experience, HeroBanner, Highlights } from "@/components";
 
 export default function Homepage() {
   return (
     <>
-      <HeroBanner />
-      <Navigation />
-      <About />
-      <Highlights />
+      <div className="p-5">
+        <HeroBanner />
+        <Highlights />
+        <div className="grid grid-cols-2 p-5 pt-9">
+          <About />
+          <Experience />
+        </div>
+      </div>
     </>
   );
 }

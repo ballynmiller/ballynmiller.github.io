@@ -4,16 +4,15 @@ import Link from "next/link";
 import Styled from "styled-components";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
 
-const NavBar = Styled.div.attrs({
-  className: "p-5",
+const Socials = Styled.div.attrs({
+  className: "text-lg",
 })`
-  background-color: #A2C5AC;
+  background-color: #fff;
   height: 50px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  color: #fff;
 `;
 
 const Links = Styled.div`
@@ -25,23 +24,22 @@ const Links = Styled.div`
   }
 `;
 
-const Navigation = () => {
+const SocialLinks = () => {
   return (
-    <NavBar>
-      <div>Ballyn Miller</div>
+    <Socials>
       <Links>
-        <Link href="#about">About</Link>
-        <Link href="/resume.pdf">Resume</Link>
-        <Link href="mailto:ballyn.miller@gmail.com">Contact</Link>
         <Link href="#">
           <GitHubIcon />
         </Link>
         <Link href="#">
-          <LinkedInIcon />
+          <LinkedInIcon sx={{ color: "rgb(10, 102, 194)" }} />
+        </Link>
+        <Link href="mailto:ballyn.miller@gmail.com">
+          <EmailIcon />
         </Link>
       </Links>
-    </NavBar>
+    </Socials>
   );
 };
 
-export default Navigation;
+export default SocialLinks;

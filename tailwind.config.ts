@@ -5,13 +5,14 @@ const config: Config = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: {
+      cerulean: '#1C6E8C',
+      charcoal: '#274156',
+      frenchGray: '#D0CCD0',
+      wenge: '#605856',
+      white: '#FBFCFF',
+    },
     extend: {
-      colors: {
-        'ashGray': '#9DB5B2',
-        'cambridgeBlue': '#A2C5AC',
-        'slateGray': '#878E99',
-        'timberwolf': '#D3D5D4',
-      },
     },
   },
   plugins: [],

@@ -6,9 +6,9 @@ export const Card = ({
   subtitle: string;
 }) => {
   return (
-    <div className="p-5">
-      <p className="text-6xl">{title}</p>
-      <p className="text-lg text-ashGray">{subtitle}</p>
+    <div>
+      <p className="text-6xl text-charcoal">{title}</p>
+      <p className="text-lg text-wenge">{subtitle}</p>
     </div>
   );
 };
