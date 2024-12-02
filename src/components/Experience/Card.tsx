@@ -1,9 +1,12 @@
+import { Chip } from "@mui/material";
+
 type CardProps = {
   company: string;
   position: string;
   startDate: string;
   endDate: string;
   responsibilities: string[];
+  technologies: string[];
 };
 
 export const Card = ({
@@ -12,6 +15,7 @@ export const Card = ({
   startDate,
   endDate,
   responsibilities,
+  technologies = [],
 }: CardProps) => {
   return (
     <div className="pb-5">
@@ -19,14 +23,23 @@ export const Card = ({
         <span className="text-wenge">{position}</span> -{" "}
         <span className="text-cerulean">{company}</span>
       </h1>
-      <p>
+      <p className="text-frenchGray">
         {startDate} - {endDate}
       </p>
-      <div>
+      <ul className="list-disc px-5">
         {responsibilities.map((r) => (
-          <p key={r} className="font-thin text-sm">
+          <li key={r} className="font-thin">
             {r}
-          </p>
+          </li>
+        ))}
+      </ul>
+      <div className="pt-3 flex flex-wrap gap-2">
+        {technologies.map((tech) => (
+          <Chip
+            color="primary"
+            label={tech}
+            sx={{ backgroundColor: "#605856" }}
+          />
         ))}
       </div>
     </div>
