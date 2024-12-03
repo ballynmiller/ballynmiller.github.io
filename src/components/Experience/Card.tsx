@@ -33,13 +33,14 @@ export const Card = ({
           </li>
         ))}
       </ul>
-      <div className="pt-3 flex flex-wrap gap-2">
+      <div className="pt-3 pl-3 flex flex-wrap gap-2">
         {technologies.map((tech) => (
           <Chip
             color="primary"
             key={tech}
             label={tech}
             sx={{ backgroundColor: "#605856" }}
+            size="small"
           />
         ))}
       </div>
