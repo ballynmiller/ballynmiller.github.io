@@ -18,7 +18,7 @@ export const Card = ({
   technologies = [],
 }: CardProps) => {
   return (
-    <div className="pb-5">
+    <div className="pb-10">
       <h1>
         <span className="text-wenge">{position}</span> -{" "}
         <span className="text-cerulean">{company}</span>
