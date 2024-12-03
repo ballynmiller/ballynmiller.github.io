@@ -17,6 +17,8 @@ const jobs = [
        Node.js, and GraphQL to enhance team skills and cohesion.`,
       `Architected React-Native checkout workaround to maintain company compliance across several brands.`,
       `Engineered Builder.io components using React.js and React-Native, allowing for dynamic updates`,
+      `Led the technical direction and ownership of a core mobile application, mastering React Native and integrating custom native iOS and Android code to deliver scalable, high-performance solutions.`,
+      `Onboarded and mentored new developers, while defining architectural patterns and driving team alignment on tools and processes for long-term success.`,
     ],
     technologies: [
       "Javascript",
