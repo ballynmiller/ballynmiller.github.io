@@ -6,7 +6,7 @@ const HeroBanner = () => {
   return (
     <div className="p-8">
       <div className="block md:flex items-center gap-x-4">
-        <div className="">
+        <div className="pb-10 md:pb-0">
           <Image
             alt="self portrait"
             src={"/img/DSC_4973.jpeg"}
