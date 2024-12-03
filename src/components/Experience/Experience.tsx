@@ -9,11 +9,11 @@ const jobs = [
     startDate: "Oct 2022",
     endDate: "Oct 2024",
     responsibilities: [
-      `Led application migration from ColdFusion to React.js / Typescript, created brand wide components to be
+      `Led application migration from ColdFusion to Next.js / React.js / Typescript, created brand wide components to be
        consumed across several brands, increasing performance and decreasing development time.`,
       `Led source code repository management and enforced version control policies using Git, improving team
        collaboration and code quality.`,
-      `Mentored developers through code reviews and coaching, utilizing best practices with React Native, React.js,
+      `Mentored developers through code reviews and coaching, utilizing best practices with Next.js, React Native, React.js,
        Node.js, and GraphQL to enhance team skills and cohesion.`,
       `Architected React-Native checkout workaround to maintain company compliance across several brands.`,
       `Engineered Builder.io components using React.js and React-Native, allowing for dynamic updates`,
