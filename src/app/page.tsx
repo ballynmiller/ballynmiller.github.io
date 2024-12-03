@@ -1,5 +1,3 @@
-"use client";
-
 import { About, Experience, HeroBanner, Highlights } from "@/components";
 
 export default function Homepage() {

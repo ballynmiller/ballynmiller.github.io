@@ -1,22 +1,11 @@
-"use client";
-
-import Styled from "styled-components";
 import { fraunces } from "@/app/fonts";
 import Image from "next/image";
 import Socials from "../Socials";
 
-const Wrapper = Styled.div.attrs({
-  className: "p-8",
-})`
-`;
-
-const Info = Styled.div.attrs({})`
-`;
-
 const HeroBanner = () => {
   return (
-    <Wrapper>
-      <Info className="block md:flex items-center gap-x-4">
+    <div className="p-8">
+      <div className="block md:flex items-center gap-x-4">
         <div className="">
           <Image
             alt="self portrait"
@@ -42,8 +31,8 @@ const HeroBanner = () => {
           </p>
           <Socials />
         </div>
-      </Info>
-    </Wrapper>
+      </div>
+    </div>
   );
 };
 

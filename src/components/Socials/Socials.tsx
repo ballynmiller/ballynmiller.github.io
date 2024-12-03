@@ -1,42 +1,29 @@
-"use client";
-
 import Link from "next/link";
-import Styled from "styled-components";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 
-const Socials = Styled.div.attrs({
-  className: "text-lg pt-2",
-})`
-  display: flex;
-  align-items: center;
-`;
-
-const Links = Styled.div`
-  display: flex;
-  gap: 10px;
-
-  a:hover {
-    color: #D3D5D4;
-  }
-`;
-
 const SocialLinks = () => {
   return (
-    <Socials>
-      <Links>
-        <Link href="https://github.com/ballynmiller">
+    <div className="text-lg pt-2 flex items-center">
+      <div className="flex gap-3">
+        <Link
+          href="https://github.com/ballynmiller"
+          className="hover:text-wenge"
+        >
           <GitHubIcon />
         </Link>
         <Link href="https://www.linkedin.com/in/ballynmiller/">
           <LinkedInIcon sx={{ color: "rgb(10, 102, 194)" }} />
         </Link>
-        <Link href="mailto:ballyn.miller@gmail.com">
+        <Link
+          href="mailto:ballyn.miller@gmail.com"
+          className="hover:text-wenge"
+        >
           <EmailIcon />
         </Link>
-      </Links>
-    </Socials>
+      </div>
+    </div>
   );
 };
 
