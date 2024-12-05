@@ -9,16 +9,13 @@ const jobs = [
     startDate: "Oct 2022",
     endDate: "Oct 2024",
     responsibilities: [
-      `Led application migration from ColdFusion to Next.js / React.js / Typescript, created brand wide components to be
-       consumed across several brands, increasing performance and decreasing development time.`,
-      `Led source code repository management and enforced version control policies using Git, improving team
-       collaboration and code quality.`,
-      `Mentored developers through code reviews and coaching, utilizing best practices with Next.js, React Native, React.js,
-       Node.js, and GraphQL to enhance team skills and cohesion.`,
-      `Architected React-Native checkout workaround to maintain company compliance across several brands.`,
-      `Engineered Builder.io components using React.js and React-Native, allowing for dynamic updates`,
-      `Led the technical direction and ownership of a core mobile application, mastering React Native and integrating custom native iOS and Android code to deliver scalable, high-performance solutions.`,
-      `Onboarded and mentored new developers, while defining architectural patterns and driving team alignment on tools and processes for long-term success.`,
+      `Led migration from ColdFusion to Next.js, React.js, and TypeScript, creating reusable components that boosted performance and reduced development time across brands.`,
+      `Established Git standards to improve team collaboration, code quality, and delivery consistency.`,
+      `Mentored developers in Next.js, React Native, and GraphQL, driving best practices and team alignment.`,
+      `Designed a compliant checkout solution using React Native, ensuring seamless workflows across brands.`,
+      `Created dynamic Builder.io components with React.js and React Native, enabling real-time updates.`,
+      `Led technical strategy for a mobile app, integrating React Native with custom native iOS/Android code to enhance scalability and performance.`,
+      `Streamlined onboarding by defining architectural patterns, standards, and tools to ensure long-term success.`,
     ],
     technologies: [
       "Javascript",
@@ -39,8 +36,7 @@ const jobs = [
     startDate: "June 2019",
     endDate: "Oct 2022",
     responsibilities: [
-      `Built a Node microservice for Trade Session snapshots, developed key features for the Rebalancer tool using
-React.js, C#, and AWS. Maintained a high-performance React.js frontend and mentored junior developers.`,
+      `Implemented key features for the Rebalancer tool using React.js, C#, and AWS, ensuring a high-performance frontend while mentoring junior developers to enhance team capabilities.`,
     ],
     technologies: ["React", "Redux", "Typescript", "C#", "AWS"],
   },
