@@ -15,6 +15,7 @@ const jobs = [
       `Designed a compliant checkout solution using React Native, ensuring seamless workflows across brands.`,
       `Created dynamic Builder.io components with React.js and React Native, enabling real-time updates.`,
       `Led technical strategy for a mobile app, integrating React Native with custom native iOS/Android code to enhance scalability and performance.`,
+      `Implemented a GitHub Actions pipeline to efficiently deploy and distribute native applications using open-source solutions.`,
       `Streamlined onboarding by defining architectural patterns, standards, and tools to ensure long-term success.`,
     ],
     technologies: [
