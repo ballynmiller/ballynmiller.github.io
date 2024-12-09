@@ -1,14 +1,28 @@
+import InfoIcon from "@mui/icons-material/Info";
+import { Tooltip } from "@mui/material";
+
 export const Card = ({
-  title,
+  showTooltip = false,
   subtitle,
+  title,
+  tooltipText,
 }: {
-  title: string;
+  showTooltip: boolean;
   subtitle: string;
+  title: string;
+  tooltipText: string;
 }) => {
   return (
     <div>
       <p className="text-6xl text-charcoal">{title}</p>
-      <p className="text-lg text-wenge">{subtitle}</p>
+      <p className="text-lg text-wenge">
+        {subtitle}
+        {showTooltip && (
+          <Tooltip title={tooltipText}>
+            <InfoIcon className="text-frenchGray" sx={{ fontSize: 16 }} />
+          </Tooltip>
+        )}
+      </p>
     </div>
   );
 };

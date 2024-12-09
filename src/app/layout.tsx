@@ -1,10 +1,15 @@
 import "@/styles/global.css";
-import { Viewport } from "next";
+import { Viewport, Metadata } from "next";
 import { poppins } from "./fonts";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Ballyn Miller",
   description: "Personal website for Ballyn Miller",
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+  },
 };
 
 export const viewport: Viewport = {

@@ -14,7 +14,7 @@
     "@mui/icons-material": "^6.1.9",
     "@mui/material": "^6.1.9",
     "cssnano": "^7.0.6",
-    "next": "15.0.3",
+    "next": "^15.0.4",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-device-detect": "^2.2.3",
     "react-dom": "19.0.0-rc-66855b96-20241106"
