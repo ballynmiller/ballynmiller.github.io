@@ -23,11 +23,7 @@ const HeroBanner = () => {
           </p>
           <p className="text-4xl text-cerulean">Software Enthusiast</p>
           <p className="text-xl font-light mt-5">
-            {`I'm a Seasoned Staff Software Engineer and technical leader with
-            extensive full-stack expertise. I specialize in tackling complex
-            challenges and driving cross-platform collaboration. I excel at
-            spearheading efforts to optimize systems for performance and
-            maintainability.`}
+            {`Frontend Engineer with 12+ years of experience in building high-performance, accessible, and scalable web applications using modern JavaScript / Typescript frameworks such as React. I have a proven track record of improving code efficiency and implementing innovative solutions to enhance user experience and drive business success.`}
           </p>
           <Socials />
         </div>
