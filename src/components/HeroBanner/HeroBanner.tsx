@@ -23,7 +23,9 @@ const HeroBanner = () => {
           </p>
           <p className="text-4xl text-cerulean">Software Enthusiast</p>
           <p className="text-xl font-light mt-5">
-            {`Frontend Engineer with 12+ years of experience in building high-performance, accessible, and scalable web applications using modern JavaScript / Typescript frameworks such as React. I have a proven track record of improving code efficiency and implementing innovative solutions to enhance user experience and drive business success.`}
+            {`Frontend Engineer with 12+ years of experience designing and developing high-performance, scalable, and maintainable web
+              applications. Proven expertise in building reusable user interface components with modern frameworks including React.js and
+              Next.js. Skilled in architectural design for complex front-end systems, performance optimization, and writing testable code.`}
           </p>
           <Socials />
         </div>

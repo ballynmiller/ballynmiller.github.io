@@ -15,8 +15,8 @@ const About = () => {
           create meaningful results.
         </p>
         <p className="pt-5">
-          I enjoy working closely with people, building strong relationships,
-          and helping everyone stay aligned to achieve shared goals. In my spare
+          I enjoy cross-team collaborations, building strong relationships, and
+          helping everyone stay aligned to achieve shared goals. In my spare
           time you&#39;ll find me listening to vinyls while sipping on a cup of
           coffee.
         </p>
